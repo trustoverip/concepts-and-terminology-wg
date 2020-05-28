@@ -6,9 +6,9 @@ This repo contains the content resources for the management of the ToIP Glossary
 ## Contents
 
 1. Online Governance Framework Docs
-    * [GitHub Pages]()
+    * [GitHub Pages](https://trustoverip.github.io/concepts-and-terminology/)
     * [ToIP Glossary Website - GitHub Pages Alias]()
-2. ToIP Glossary ([PDF Version](https://pages.github.com/trustoverip/concepts-and-terminology/raw/master/pdf/ToIP-glossary.pdf))
+2. ToIP Glossary ([PDF Version](https://.github.com/trustoverip/concepts-and-terminology/raw/master/pdf/ToIP-glossary.pdf))
 
 
 ## Content Contributions
