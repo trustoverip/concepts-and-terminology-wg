@@ -1,7 +1,7 @@
 ---
 name: Concept Proposal
-about: Suggest a new concept (definition) to integrate into the corpus. The concept
-  may have zero or more associated labels (terms).
+about: Submit a concept (definition) to integrate into the corpus. The concept may
+  have zero or more associated labels (terms).
 title: '[CONCEPT] "working title"'
 labels: ''
 assignees: ''
