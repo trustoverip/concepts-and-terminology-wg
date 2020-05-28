@@ -1,7 +1,7 @@
 ---
 name: Concept Proposal
-about: Submit a new concept (definition) to the corpus. The concept may have zero
-  or more associated labels (terms).
+about: Suggest a new concept (definition) to integrate into the corpus. The concept
+  may have zero or more associated labels (terms).
 title: '[CONCEPT] "working title"'
 labels: ''
 assignees: ''
@@ -10,11 +10,13 @@ assignees: ''
 
 ## Definition
 
-1-3 sentences that describe the concept to a layperson with reasonable accuracy. For example, the concept of a "mammal" in biology might be described as "A warm-blooded animal, often having fur or hair, that produces milk to feed its young, such as a rat, a whale, or a bat." A diagram could be included, if appropriate.
+1-3 sentences that describe the concept to a layperson with reasonable accuracy.
+
+For example, the concept of a "mammal" in biology might be described as: "A warm-blooded animal, often having fur or hair, that produces milk to feed its young. Examples include rats, whales, and bats." A diagram could be included, if appropriate.
 
 ## Criteria
 
-How is this concept different from related ideas? What are essential characteristics that must be true? This is where the concept becomes crystal clear; exactly and only this concept should match the bulleted list here.
+How is this concept different from related ideas? What are essential characteristics that must be true? This is where the concept becomes crystal clear; exactly and only this concept should match the bulleted list here. Continuing our mammal example, we might say the following here:
 
 * MUST be a vertebrate.
 * MUST have mammary glands.
@@ -35,7 +37,9 @@ In which general knowledge ecosystems or mental model families does this concept
 
 ## Citations
 
-Reference any notable public documents where the term is used, with a quote from them.
+Reference any notable public documents where the term is used, with a quote from them. For example:
+
+* [Australian Museum](https://australianmuseum.net.au/learn/species-identification/ask-an-expert/what-is-a-mammal/): "Mammals are vertebrates with hair, mammary glands used to suckle young with milk, a diaphragm, three bones in the middle ear, and a lower jaw made up of a single pair of bones that articulates in a unique way with the skull."
 
 ## Status
 
