@@ -1,0 +1,56 @@
+site_name: 'ToIP Concepts and Terminology'
+site_description: 'ToIP Concepts and Terminology.'
+docs_dir: 'content'
+site_dir: 'html'
+dev_addr: '127.0.0.1:8800'
+
+nav:
+- General:
+    - 'Overview': 'index.md'
+- Governance Stack:
+    - A:
+        - 'a-term-01': 'governance/a_term_01.md'
+        - 'a-term-02': 'governance/a_term_02.md'
+        - 'a-term-03': 'governance/a_term_03.md'
+    - Z:
+        - 'z-term-01': 'governance/z_term_01.md'
+        - 'z-term-02': 'governance/z_term_02.md'
+        - 'z-term-03': 'governance/z_term_03.md'
+- Technology Stack:
+    - A:
+        - 'a-term-01': 'technology/a_term_01.md'
+        - 'a-term-02': 'technology/a_term_02.md'
+        - 'a-term-03': 'technology/a_term_03.md'
+    - Z:
+        - 'z-term-01': 'technology/z_term_01.md'
+        - 'z-term-02': 'technology/z_term_02.md'
+        - 'z-term-03': 'technology/z_term_03.md'
+- Help:
+    - 'FAQ': 'faq.md'
+    - 'Contact us': 'contact_us.md'
+
+
+plugins:
+    - search
+    - pdf-export:
+        verbose: true
+        media_type: print
+        enabled_if_env: ENABLE_PDF_EXPORT
+        combined: true
+        combined_output_path: ../pdf/toip-glossary.pdf
+
+theme:
+    name: 'material'
+#    custom_dir: 'theme/material/'
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+
+
+copyright: Copyright &copy; 2020

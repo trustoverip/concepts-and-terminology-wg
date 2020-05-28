@@ -1,0 +1,185 @@
+.wy-menu-vertical span {
+    line-height: 18px;
+    padding: 0.4045em 0.809em;
+    display: block;
+    position: relative;
+    font-size: 90%;
+    color: #838383;
+}
+
+.wy-nav-side {
+    height: 100%;
+    overflow-y: auto;
+}
+
+code {
+    white-space: pre;
+}
+
+footer {
+	display: none;
+}
+
+.wy-side-nav-search {
+	background-color: #0062ff ;
+}
+
+.wy-nav-content {
+	max-width: 100%;
+}
+
+.wy-nav-content-wrap {
+	background-color: #fcfcfc
+}
+
+.wy-nav-top {
+	background-color: #0062ff;
+}
+
+.developmentDisclaimer {
+    padding: 5px;
+    color: red;
+   background-color: #DDDDDD;
+}
+
+
+table{
+		width:100%; 
+		border-collapse:collapse; 
+	}
+table td, th{ 
+		padding:7px; border:#DDDDDD 1px solid;
+	}
+	/* provide some minimal visual accomodation for IE8 and below */
+	table tr{
+		background: #ffffff;
+	}
+	/*  Define the background color for all the ODD background rows  */
+	table tr:nth-child(odd){ 
+		background: #F5F5F5;
+	}
+	/*  Define the background color for all the EVEN background rows  */
+	table tr:nth-child(even){
+		background: #dae5f4;
+		background: #ffffff;
+	}
+
+table th {
+
+background-color: #0062ff;
+nnbackground-color: #66B2FF;
+color: white;
+}
+
+.toctree-l3 {
+  margin-left: 1em!important;
+  color: gray !important;
+}
+
+.toctree-l4 {
+  margin-left: 2em!important;
+  color: gray !important;
+}
+
+.mi {
+	color: #222222;
+}
+
+.mi .videoView {
+	width: 70%;
+	margin: 0px auto;
+	padding-bottom: 50px;
+}
+
+.mi .videoTable {
+	display: table;
+	margin: 0px auto;
+	min-width: 300px;
+	width: 90%;
+}
+
+.mi .videoRow {
+	display: table-row;
+	text-align: center;
+}
+
+.mi .videoTitle {
+	font-size: 18px;
+	color: #222;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.mi .videoViewer {
+	width: 100%;
+}
+
+.mi .video_list{
+	font-size: 14px;
+	color:#222;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+
+.mi .thumbnail {
+	width: 106px;
+	height: 66px;
+	background-color: #323C47;
+	display: inline-block;
+}
+
+.mi .details{
+	font-size: 12px;
+	font-weight: 100;
+}
+
+.mi .video_details {
+	font-size: 14px;
+	font-weight: 100;
+}
+
+.mi .play_icon{
+	display: inline-block;
+	vertical-align: middle;
+	width: 130px;
+}
+
+.mi .individual {
+	display: table-cell;
+	vertical-align: top;
+	cursor: pointer;
+	height: 75px;
+	width: 300px;
+	padding-bottom: 10px;
+}
+
+.mi .individual.selected {
+	/*background-color: #EEEEEE;*/
+	opacity: 0.4;
+}
+
+.mi .description_container {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+	width: 190px;
+	text-align: left;
+}
+
+.mi .videoSectionHeader {
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+	.mi .individual {
+		display: block;
+		margin-bottom:40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+ul.link li {list-style-image:url(/img/link.png) !important}
+
