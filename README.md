@@ -1,14 +1,14 @@
 # concepts-and-terminology
-Content and code repository for the Mental/Conceptual Models &amp; Terminology Working Group (MM&amp;T-WG)
+Content and code repository for the Concepts &amp; Terminology Working Group (C&amp;T-WG)
 
 This repo contains the content resources for the management of the ToIP Glossary along with the tools necessary to generate two renderings (printed, online) of the ToIP Glossary.
 
 ## Contents
 
 1. Online Governance Framework Docs
-    * [GitHub Pages](https://trustoverip.github.io/concepts-and-terminology/)
+    * [GitHub Pages](https://trustoverip.github.io/concepts-and-terminology-wg/)
     * [ToIP Glossary Website - GitHub Pages Alias]()
-2. ToIP Glossary ([PDF Version](https://.github.com/trustoverip/concepts-and-terminology/raw/master/pdf/ToIP-glossary.pdf))
+2. ToIP Glossary ([PDF Version](https://.github.com/trustoverip/concepts-and-terminology-wg/raw/master/pdf/ToIP-glossary.pdf))
 
 
 ## Content Contributions
