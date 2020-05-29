@@ -1,17 +1,25 @@
 ---
 name: Term Proposal
-about: Submit a term (a label in a given language) for a given concept.
+about: Submit a term (a label in a given language) for a given concept in a given scope.
 title: '[TERM] "label for concept"'
 labels: ''
 assignees: ''
 
 ---
 
+## Scope of the Term
+Identify the (single) scope within which the term is to be defined and used. The scope you identify SHOULD have a Scope Description, or you should make one. `ToIP` is the 'universal' scope, `C&T` is the scope for discussions and topics in the ToIP Concepts & Terminology WG.
+
+* (scope identifier)
+
+## Purpose
+Describe why the term is needed. What purposes does it serve (e.g. the term is accepted/often used jargon in the scope)? If the term refers to a defined concept, then why is it different from the term that the concept definition specifies? What objectives does it help realize? Why is this concept relevant within its scope of definition?
+
 ## Language
 This is a term in what language? Use ISO lang codes like "en", "de", etc.
 
 ## Labels concept
-What concepts (definitions) does this term label? Ideally, each term labels one concept, but reality is often messier, so there could be more than one link here. For example, the term "agent" certainly labels more than one concept of interest to trust over IP.
+What concepts (definitions) does this term label within the scope for which it is defined? Ideally, each term labels one concept, but reality is often messier, so there could be more than one link here. For example, the term "verifier" may refer to a software component, but also to the organization that is responsible for using that. This section (alternatively: the Notes section) SHOULD provide the authoritative ways that are used in the scope for disambiguating such labels.
 
 ## Variants
 Acronyms, short forms, and similar derivations of the main term.
