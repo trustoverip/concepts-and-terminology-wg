@@ -1,4 +1,4 @@
-# concepts-and-terminology
+# Concepts & Terminology Working Group
 Content and code repository for the Concepts &amp; Terminology Working Group (C&amp;T-WG)
 
 This repo contains the content resources for the management of the ToIP Glossary along with the tools necessary to generate two renderings (printed, online) of the ToIP Glossary.
