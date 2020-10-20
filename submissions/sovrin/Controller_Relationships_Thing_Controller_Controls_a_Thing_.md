@@ -1,0 +1,13 @@
+## Term/Phrase
+Controller Relationships (Thing Controller Controls a Thing)
+
+## Definition
+A Controller relationship is the easiest one to define: it only exists between an Identity Owner and a Thing. This role is called Thing Controller because the Identity Owner completely controls the Private Key(s), Wallet(s), and Agent(s) acting on behalf of the Thing.All Things must have a Thing Controller because by definition a Thing cannot take legal responsibility for the actions of its Agent(s). This is true even in the case of Natural Things such as animals&mdash;while they may have their own natural rights (and thus may more naturally be thought of as needing &ldquo;guardianship&rdquo;), they cannot control their own Private Key(s), Wallet(s), and Agent(s).With Man-Made Things, the Thing Controller relationship depends on the type:Passive Things cannot have their own Private Keys and therefore require a Thing Controller to manage their Private Key(s), Wallet(s), and Agent(s). This is very much like the relationship of a Guardian to a Dependent except the Thing has no right to self-sovereignty (i.e., to become an Independent). This applies to any Thing that is not connected to a network or cannot send, receive, and process messages.Active Things can have their own Private Keys. Active Things must be computing devices of some kind capable of connecting to a network, with their own Private Key(s) and Wallet(s) (even if minimal). They must also operate their own Agent(s) speaking at least a subset of the Sovrin Protocol.Examples of Passive Things:Inanimate physical objects such as manufactured goods, shipping containers, buildings, and machine parts.Digital objects such as files, graphics, ontologies, and data structures.Business documents such as purchase orders, invoices, waybills, and shipping receipts.Examples of Active Things:Computing devices used by Identity Owners (e.g., smartphones, laptops, desktops, servers, printers, smart TVs, smart cars, smart watches, etc.).[5]Smart sensors used in manufacturing, shipping, transportation, etc.Drones, robots, autonomous cars, and other computing devices capable of movement.A critical point is that, even in the second case when the Thing has its own keys, the Thing Controller is always in ultimate control of the Thing. Without diving deep into Blade Runner-style arguments about AI (Artificial Intelligence) and free will, the actions of the Thing are always the responsibility&mdash;practically, legally, or ethically&mdash;of the Individual or Organization acting as the Thing Controller.
+
+## Relevant Communities
+* Sovrin
+
+## Tags
+```
+#sovrin
+```
