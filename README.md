@@ -1,5 +1,5 @@
 # Concepts & Terminology Working Group
-Content and code repository for the Concepts &amp; Terminology Working Group (C&amp;T-WG)
+Content and code repository for the [Concepts &amp; Terminology Working Group (C&amp;T-WG)](https://wiki.trustoverip.org/pages/viewpage.action?pageId=65700)
 
 This repo contains the content resources for the management of the ToIP Glossary along with the tools necessary to generate two renderings (printed, online) of the ToIP Glossary.
 
