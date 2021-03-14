@@ -1,5 +1,5 @@
 ---
-name: Process Issue Template
+name: Process Issue
 about: Discuss a change to overarching processes or tools, rather than a specific piece of data.
 title: "[PROCESS] <issue/feature desc>"
 labels: 'process'
