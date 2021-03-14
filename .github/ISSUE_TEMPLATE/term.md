@@ -1,8 +1,8 @@
 ---
-name: New Roo
-about: Propose a batch import of glossary data.
-title: '[IMPORT] <description of data source>'
-labels: 'import'
+name: New Termx
+about: Add a word or phrase plus its definition.
+title: '[TERM] "word or phrase you're adding"'
+labels: 'term'
 assignees: ''
 
 ---
