@@ -52,12 +52,12 @@ When we use the term [agent](agent.md) in the SSI community, we more properly me
 ### Exposition
 This optional field is like an extended Wikipedia article on the concept. Diagrams, explanations, extended commentary, and other rich data can be included, as long as it will all be interpreted by a markdown processor as being "inside" the Exposition section. 
 
-### Status
+### Concept Status
 This field has the same format, meaning, and examples as the [Status field in a term record](term-record.md#status) -- except that it describes the status of a concept instead. (The status of a term and its associated concept can evolve indepedently.)
 
-### Tags
+### Concept Tags
 This field has the same format, meaning, and examples as the [Tags field in a term record](term-record.md#tags) -- except that it tags a concept instead.
 
-### Notes
+### Concept Notes
 This field has the same format, meaning, and examples as the [Notes field in a term record](term-record.md#notes) -- except that it comments on a concept instead.
 

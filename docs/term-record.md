@@ -8,7 +8,7 @@ Splitting the data in this way lets one concept be associated with multiple term
 
 ## Naming
 
-A term record lives in a `/terms` folder. It is named according to the convention `<identifier>[-<variant>].md`, where `<identifier>` is a lower-kabob-cased transformation of the term itself, and the optional `-<variant>` is a number appended only when necessary to disambiguate. The filename is chosen by a tool, not humans -- but it is intended to be human-friendly, because it will be used in hyperlinks. The filename should remain stable across evolutions of the content, if at all possible.
+A term record lives in a `/terms` folder. It is named according to the convention `<identifier>[-<variant>].md`, where `<identifier>` is a lower-kabob-cased transformation of the term itself, and the optional `-<variant>` is a number appended only when necessary to disambiguate. The identifier and variant together constitute the __term id__. This value is chosen by a tool, not humans -- but it is intended to be human-friendly, because it will be used in hyperlinks. The term id and filename should remain stable across evolutions of the content, if at all possible.
 
 Internally, the file is divided into sections using markdown headers. Each section of the file corresponds to a field in the term record.
 
