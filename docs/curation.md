@@ -1,6 +1,6 @@
 # Curation
 
-Curation is the process of evolving your concept and term data in the direction of greater quality and richer content. Any group that uses CTWG infrastructure is encouraged to design a curation process to best achieve its goals. Curation happens in an iterative fashion, by repeated review and contribution. High-quality data is generally assigned a status like `accepted`, but it can always be reviewed, improved, and re-evaluated:
+Curation is the process of evolving your concept and term data in the direction of greater quality and richer content. Any group that uses CTWG infrastructure is encouraged to design a curation process to best achieve its goals; it appoints a [curator](curator.md) to lead that work. Curation happens in an iterative fashion, by repeated review and contribution. High-quality data is generally assigned a status like `accepted`, but it can always be reviewed, improved, and re-evaluated:
 
 ![review process](review-process.png)
 

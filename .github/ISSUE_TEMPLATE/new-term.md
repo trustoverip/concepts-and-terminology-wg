@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-# <word or phrase you're adding>
->_In the header above, insert the word or phrase you want to define. See https://github.com/dhh1128/ctwg/blob/master/docs/term-conventions.md for conventions about capitalization, punctuation, plurals, spelling, and so forth. If your term has a short form or acronym, put the long form first, and then the short form in parentheses._
+# <word or phrase you're defining>
+>_In the header above, insert the word or phrase you want to add. See https://github.com/dhh1128/ctwg/blob/master/docs/term-conventions.md for conventions about capitalization, punctuation, plurals, spelling, and so forth. If your term has a short form or acronym, put the long form first, and then the short form in parentheses._
 
 ## Definition
 >_What does this word or phrase mean, precisely? The first sentence of your definition acts as hovertext in hyperlinks, so make it as as pithy as possible. After that, add as much detail as you need: what criteria allow you to know for certain whether X is or is not an example of the concept? What misunderstandings need to be eliminated? If your term is a true synonym for something already defined in the glossary, just hyperlink to that definition rather than rewriting or copying it._

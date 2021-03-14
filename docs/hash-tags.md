@@ -14,8 +14,9 @@ Hash tags are compared case-insensitive and with all punctuation removed, which 
 
 * _TOIP working group tags_, matching regex `^#[a-z0-9]+wg$`: `#efwg`, `#gswg`, `#tswg`, `#ctwg`, etc. These are the only tags on TOIP's [global pre-approved tags list](https://trustoverip.github.io/deliverables/process/tags/#approved-tags) that are relevant to glossary work.
 * _TOIP task force tags_, matching regex `^#[a-z0-9]+tf$`: `#acdctf`, etc.
-* _Foreign group tags_, in the form `#<org>-<group>`: `#dif-keri`, `#sovrin-guardianship`, `#w3c-ccg`, etc.
-* _Status tags_: `#accepted`, `#deprecated`, `#rejected`. Tooling automatically reacts to these tags appropriately, and enforces that that they are mutually exclusive.
+* _External group tags_, in the form `#<org>-<group>`: `#dif-keri`, `#sovrin-guardianship`, `#w3c-ccg`, etc.
+* _Language tags_, in the form `#lang-<code>`, as in `#lang-fr`, '#lang-de`, etc.
+* _Status tags_: see [here](status-tags.md) for more info. Tooling automatically applies and reacts to these tags appropriately, and enforces that that they are mutually exclusive.
 * _Glossary identifiers_, matching regex `^#g-.+`. (These tags are maintained by the system; people don't normally have to worry about them.)
 * _reserved tags_ (used by tooling for internal purposes), matching regex `^#r-.+`.
 * Group-specific _custom tags_, matching regex `^#<group>-.+`. See below.

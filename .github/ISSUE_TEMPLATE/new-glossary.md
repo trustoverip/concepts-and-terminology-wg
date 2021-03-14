@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ## Title
->_When this glossary is published, what should its title be?_
+>_When this glossary is published, what should its title be?_ (This title is human-friendly, but is also used to generate an internal identifier that's used by automation.)
 
 ## Scope
 >_What is the group that will curate the content for this glossary? See the various group tags in the predefined hash tags list at https://github.com/dhh1128/ctwg/blob/master/docs/hash-tags.md._

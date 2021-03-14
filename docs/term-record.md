@@ -30,16 +30,20 @@ This required header acts as a title for the record. It is a single line that co
 
 Notice how the term is not capitalized, even though it would be customary to use title case in a document title.
 
+Since this field is a markdown header, it cannot contain [hyperlinks](hyperlinks.md).
+
 Synonyms go in separate term records, since they may have different histories, statuses, and supporting data.
 
 ### Concept ID
 
-This required field contains a single line of text that is a markdown-formatted relative hyperlink to the associated concept record (where the term is defined). The word "concept" followed by the identifier of the concept is the inner text of the link. Since the `/concepts` and the `/terms` folders are siblings of one another, the path in the hyperlink will always begin with `../concepts/`. Example:
+This required field contains a single line of text that is a markdown-formatted [local hyperlink](hyperlinks.md#local-links) to the associated concept record (where the term is defined). The word "concept" followed by the identifier of the concept is the inner text of the link. Example:
 
 ```markdown
 ## Concept ID
 [concept 173-gov-fw][../concepts/173-gov-fw.md]
 ```
+
+See [Concept Identifier in a concept record](concept-record.md#concept-identifer).
 
 ### Status
 
