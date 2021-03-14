@@ -20,4 +20,4 @@ assignees: ''
 >_Optional but encouraged. Provide one or more short excerpts (or links) that show how the term has been used within the specific community of interest. These could come from a spec, github issues, whitepapers, etc._
 
 ## Tags
->_Add any additional hash tags that you feel would allow grouping in useful ways. See https://github.com/dhh1128/ctwg/blob/master/docs/hash-tags.md for details and conventions._
+>_Add any additional hash tags that you feel would allow grouping in useful ways. See https://github.com/dhh1128/ctwg/blob/master/docs/hash-tags.md for details._
