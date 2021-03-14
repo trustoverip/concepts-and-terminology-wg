@@ -41,7 +41,7 @@ Ceoncept and terminology data goes through the following lifecyle:
 
 ![lifecycle](../docs/lifecycle.png)
 
-Ingestion is managed through github issues (see * [Add a new term to an existing glossary](../../issues/new?assignees=&labels=term&template=01-new-term.md&title=%5BTERM%5D+%3Cword+or+phrase+you+are+adding%3E) and [Import a batch of data](../../issues/new?assignees=&labels=import&template=03-new-import.md&title=%5BIMPORT%5D+%3Cdescription+of+data+source%3E)) and PRs. Ingestable data conforms to what we call the [ingestable data model](../docs/ingestable-data-model.md). This is a simple format that's deliberately intuitive for non-experts. TT provides some features that allow processing ingested data for QA and normalization purposes.
+Ingestion is managed through github issues (see [Add a new term to an existing glossary](../../issues/new?assignees=&labels=term&template=01-new-term.md&title=%5BTERM%5D+%3Cword+or+phrase+you+are+adding%3E) and [Import a batch of data](../../issues/new?assignees=&labels=import&template=03-new-import.md&title=%5BIMPORT%5D+%3Cdescription+of+data+source%3E)) and PRs. Ingestable data conforms to what we call the [ingestable data model](../docs/ingestable-data-model.md). This is a simple format that's deliberately intuitive for non-experts. TT provides some features that allow processing ingested data for QA and normalization purposes.
 
 ### Command Line
 
@@ -64,5 +64,7 @@ tt tag <record glob> <plus or minus> <tag> -- Add or remove a tag from all
 tt export <export def> <path> -- Using the specified export definition, select
           a subset of the data from the associated scope, and convert it from
           the internal data model to the exported data model. Write the
-          results to the new folder identified by <path>.
+          results to the new folder identified by <path>. After this command
+          runs, a publication tool like MkDocs or SpecUp can use the exported
+          data to publish a polished artifact.
 ```
