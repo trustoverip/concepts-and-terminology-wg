@@ -2,7 +2,7 @@
 name: New Term
 about: Add a word or phrase plus its definition.
 title: '[IMPORT] <description of data source>'
-labels: 'import'
+labels: 'term'
 assignees: ''
 
 ---
