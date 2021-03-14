@@ -1,13 +1,13 @@
 ---
 name: New Term
 about: Add a word or phrase plus its definition.
-title: '[IMPORT] <description of data source>'
+title: '[TERM] <word or phrase you're adding>'
 labels: 'term'
 assignees: ''
 
 ---
 
-# (word or phrase you're defining)
+# (word or phrase you're adding)
 >_In the header above, insert the word or phrase you want to add. See https://github.com/dhh1128/ctwg/blob/master/docs/term-conventions.md for conventions about capitalization, punctuation, plurals, spelling, and so forth. If your term has a short form or acronym, put the long form first, and then the short form in parentheses._
 
 ## Definition
