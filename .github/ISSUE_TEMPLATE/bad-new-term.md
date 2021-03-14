@@ -1,5 +1,5 @@
 ---
-name: New Term
+name: New Term bad
 about: Add a word or phrase plus its definition.
 title: '[TERM] "word or phrase you're adding"'
 labels: 'term'
