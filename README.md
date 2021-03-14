@@ -4,12 +4,11 @@ This is the home repo for the [Concepts &amp; Terminology Working Group (CTWG)](
 
 It contains the corpus of concept and terminology data from which individual glossary deliverables are derived, and it is the host for github issues and PRs that modify and improve glossaries. If you're here to work on your glossary, you're in the right place.
 
-ntent resources for the management of the ToIP Glossary along with the tools necessary to generate two renderings (printed, online) of the ToIP Glossary.
-
 ### Common Tasks
 
-* Add one or more terms to a glossary
+* [Add one or more terms to a glossary](docs/add-terms.md)
 * Browse or search a glossary
 * Improve data about an existing term
-* Define a new glossary
+* [Define a new glossary](../issues/new?assignees=&labels=glossary&template=new-glossary.md&title=%5BGLOSSARY%5D+%3Cnew+glossary+name%3E)
 
+### 
