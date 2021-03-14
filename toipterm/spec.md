@@ -47,7 +47,7 @@ Ingestion is managed through github issues (see * [Add a new term to an existing
 
 The TT program can be invoked from any clone of its repo. It lives under /bin/tt (a bash script with executable permissions on posix) and /bin/tt.bat (on windows); both of these are simple wrappers that turn around and invoke /bin/tt.py with the python3 runtime. The syntax of the command line is:
 
-```sh
+```
 tt <operation> <params>
 
 tt ingest <path> <scope> -- Read data from the file or folder at <path>.
