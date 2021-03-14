@@ -1,5 +1,5 @@
 ---
-name: New Import
+name: New Roo
 about: Propose a batch import of glossary data.
 title: '[IMPORT] <description of data source>'
 labels: 'import'
