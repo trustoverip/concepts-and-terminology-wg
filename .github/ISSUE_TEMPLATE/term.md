@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-## Source
->_Where is the data you want to import? Provide a hyperlink_.
+# (word or phrase you're defining)
+>_In the header above, insert the word or phrase you want to add. See https://github.com/dhh1128/ctwg/blob/master/docs/term-conventions.md for conventions about capitalization, punctuation, plurals, spelling, and so forth. If your term has a short form or acronym, put the long form first, and then the short form in parentheses._
 
 ## Repeatable?
 >_Is this a one-time import, or is this an import that needs to be re-run regularly?
