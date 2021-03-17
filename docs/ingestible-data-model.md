@@ -1,4 +1,4 @@
-# Ingestable Data Model
+# Ingestible Data Model
 
 When we accept concept and terminology data via github issues, we expect it to follow the pattern below. When we perform batch imports, we use a converter to transform data from an external format to this one.
 

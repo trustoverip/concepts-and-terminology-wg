@@ -41,7 +41,7 @@ Ceoncept and terminology data goes through the following lifecyle:
 
 ![lifecycle](../docs/lifecycle.png)
 
-Ingestion is managed through github issues (see [Add a new term to an existing glossary](../../issues/new?assignees=&labels=term&template=01-new-term.md&title=%5BTERM%5D+%3Cword+or+phrase+you+are+adding%3E) and [Import a batch of data](../../issues/new?assignees=&labels=import&template=03-new-import.md&title=%5BIMPORT%5D+%3Cdescription+of+data+source%3E)) and PRs. Ingestable data conforms to what we call the [ingestable data model](../docs/ingestable-data-model.md). This is a simple format that's deliberately intuitive for non-experts. TT provides some features that allow processing ingested data for QA and normalization purposes.
+Ingestion is managed through github issues (see [Add a new term to an existing glossary](../../issues/new?assignees=&labels=term&template=01-new-term.md&title=%5BTERM%5D+%3Cword+or+phrase+you+are+adding%3E) and [Import a batch of data](../../issues/new?assignees=&labels=import&template=03-new-import.md&title=%5BIMPORT%5D+%3Cdescription+of+data+source%3E)) and PRs. Ingestible data conforms to what we call the [ingestible data model](../docs/ingestible-data-model.md). This is a simple format that's deliberately intuitive for non-experts. TT provides some features that allow processing ingested data for QA and normalization purposes.
 
 ### Command Line
 
@@ -51,7 +51,7 @@ The TT program can be invoked from any clone of its repo. It lives under /bin/tt
 tt <operation> <params>
 
 tt ingest <path> <scope> -- Read data from the file or folder at <path>.
-          Confirm that the data matches the ingestable data model. If yes,
+          Confirm that the data matches the ingestible data model. If yes,
           use the data to populate new term and concept records in the the
           portion of the corpus owned by <scope>.
 tt check <record glob> -- Read the corpus and check for well formedness in
