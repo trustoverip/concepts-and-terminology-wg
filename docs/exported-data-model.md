@@ -21,7 +21,7 @@ The following fields are automatically added to each exported file by the export
 * Synonyms: A list of [local hyperlinks](hyperlinks.md#local-links) to other terms that share the same definition.
 * Term commit: The latest commit hash of the term record.
 * Term version: How many unique versions of the term record exists.
-* Concept commet: The latest commit hash of the concept record.
+* Concept commit: The latest commit hash of the concept record.
 * Concept version: How many unique versions of the concept record exists.
 * Export date: The UTC ISO 8601 timestamp when the export was created.
 

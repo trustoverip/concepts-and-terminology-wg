@@ -20,7 +20,7 @@ Beyond simple rules enforced by tooling, some issues that your group might exami
 * Are we choosing a word or phrase that has a different meaning to others -- and that therefore would be prone to misunderstanding?
 * Do we have a crisp, terse definition?
 * Have we identified the defining characteristics of a concept, such that we can say with confidence whether X is or is not an example?
-* Have we provided usage exmaples?
+* Have we provided usage examples?
 * Have we cited sources?
 * Would diagrams help?
 * Do we need to check alignment with experts from other disciplines?

@@ -34,7 +34,7 @@ Acronyms should be defined in the same glossary entry as their expanded form. Th
 
 Contrary to popular mistakes, plurals are not preceded by an apostrophe in English: "three bikes" -- NOT "three bike's"; "many NFTs (non-fungible tokens) are traded in specialized exchanges" -- NOT "many NFT's..."
 
-In English, nouns are converted into possessive form with an apostrophe: "my bike's tire." However, pronouns (he, she, it, we) are NOT: his, hers, its, ours. (Incorrectly inserting an apostrophe in the possessive form of "it" is perhaps the most common misspelling in the English language.
+In English, nouns are converted into possessive form with an apostrophe: "my bike's tire." However, pronouns (he, she, it, we) are NOT: his, hers, its, ours. (Incorrectly inserting an apostrophe in the possessive form of "it" is perhaps the most common misspelling in the English language.)
 
 ### Punctuation and Special Characters
 
