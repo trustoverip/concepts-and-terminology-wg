@@ -53,7 +53,9 @@ tt <operation> <params>
 tt ingest <path> <scope> -- Read data from the file or folder at <path>.
           Confirm that the data matches the ingestible data model. If yes,
           use the data to populate new term and concept records in the the
-          portion of the corpus owned by <scope>.
+          portion of the corpus owned by <scope>. An important function
+          in this process is autogenerating filenames and IDs for each
+          item in the internal data model.
 tt check <record glob> -- Read the corpus and check for well-formedness in
           all files that match the specified globbing pattern. Update the 
           #checked status of any records that change status. Report errors.
@@ -68,8 +70,14 @@ tt export <export def> <path> -- Using the specified export definition, select
           runs, a publication tool like MkDocs or SpecUp can use the exported
           data to publish a polished artifact.
 tt render <path> <render def> -- Invoke a rendering tool like MkDocs, using
-          the exported data in <path> as input. This is simply a convenience
-          function; rendering tools could be invoked directly, but this
+          the exported data in <path> as input. This is partly a convenience
+          function; rendering tools could be invoked directly. However, this
           command allows users of TT to accomplish the full workflow without
-          learning the idiosyncrasies of those tools.
+          learning the idiosyncrasies of each specialized rendering tool. It
+          uses <render def> to facilitate different rendering goals, sorting,
+          filtering, and grouping the exported data in a way that the render
+          tool expects (e.g., viewing the exported data as a glossary stream
+          in some cases, or as a spec stream in others). This makes the
+          exported data and metadata as friendly as possible to the type of
+          rendering that's intended.
 ```
