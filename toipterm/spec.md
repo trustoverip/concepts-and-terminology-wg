@@ -13,7 +13,7 @@ TT is a specialized tool for managing terminology. It does NOT replace the stand
 * SpecUp is our tool for publishing specifications from markdown.
 * MkDocs is our tool for publishing websites and similar documentation from markdown.
 
-None of these tools manage terminology. TT plugs that gap (and _only_ that gap). *It is important to understand that TT itself does not publish glossaries*; rather, it publishes data that a markdown transformation tool can use as input (e.g., MkDocs to convert the data into a browsable glossary, or SpecUp to convert the data into hyperlinks in a spec). TT provides hooks that can invoke these other tools, but technically, TT's scope ends with raw data in the [exported data model](../docs/exported-data-model.md).
+None of these tools manage terminology. TT plugs that gap (and _only_ that gap). *It is important to understand that TT itself does not publish glossaries*; rather, it publishes data that a markdown transformation tool can use as input (e.g., MkDocs to convert the data into a browsable glossary, or SpecUp to convert the data into hyperlinks in a spec). TT provides a hook that can invoke these other tools, but for the most part, TT's scope focuses on raw data in the [exported data model](../docs/exported-data-model.md).
 
 ### People
 
@@ -54,7 +54,7 @@ tt ingest <path> <scope> -- Read data from the file or folder at <path>.
           Confirm that the data matches the ingestible data model. If yes,
           use the data to populate new term and concept records in the the
           portion of the corpus owned by <scope>.
-tt check <record glob> -- Read the corpus and check for well formedness in
+tt check <record glob> -- Read the corpus and check for well-formedness in
           all files that match the specified globbing pattern. Update the 
           #checked status of any records that change status. Report errors.
 tt checklink <record glob> -- Validate hyperlinks in all files that match the
@@ -67,4 +67,9 @@ tt export <export def> <path> -- Using the specified export definition, select
           results to the new folder identified by <path>. After this command
           runs, a publication tool like MkDocs or SpecUp can use the exported
           data to publish a polished artifact.
+tt render <path> <render def> -- Invoke a rendering tool like MkDocs, using
+          the exported data in <path> as input. This is simply a convenience
+          function; rendering tools could be invoked directly, but this
+          command allows users of TT to accomplish the full workflow without
+          learning the idiosyncrasies of those tools.
 ```
