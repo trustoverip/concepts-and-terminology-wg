@@ -28,12 +28,12 @@ The identifier value is only the second token. This token in the header should m
 The ID for a concept record is referenced from the [Concept ID field in a term record](term-record.md#concept-id), where it functions like a foreign key in a database record.
 
 ### Definition
-This required field should be a sentence or paragraph that describes the concept in question. The first complete sentence in the definition is extracted by automation as hovertext for use in some artifacts that embed inline hyperlinks to terms. Additional sentences might expand or clarify -- but should not replace the[Criteria](#criteria) and [Exposition](#exposition) fields.
+This required field should be a sentence or paragraph that describes the concept in question in such a way that readers stand a good chance of determining what qualifies, and what does not qualify as in instance (example) of that concept. The first complete sentence in the definition is extracted by automation as hovertext for use in some artifacts that embed inline hyperlinks to terms. Additional sentences might expand or clarify -- but should not replace the[Criteria](#criteria) and [Exposition](#exposition) fields.
 
 Definitions are likely to build upon other terms; they often use them in the running text. These terms should be referenced as [local hyperlinks](hyperlinks.md#local-links). Example:
 
 ```markdown
-## Definition
+### Definition
 A piece of software and/or hardware that interacts with other [sovereign entities](sovereign-entity.md) in the ecosystem on behalf of its [principal](principal.md).
 ```
 
