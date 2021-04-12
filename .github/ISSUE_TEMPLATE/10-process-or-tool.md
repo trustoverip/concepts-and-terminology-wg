@@ -1,6 +1,6 @@
 ---
-name: Process Issue Template
-about: Discuss a change to overarching processes or tools, rather than a specific piece of data.
+name: Process or Tool Improvement
+about: Suggest a change to overarching processes or tools, rather than to a specific piece of data.
 title: "[PROCESS] <issue/feature desc>"
 labels: 'process'
 assignees: ''

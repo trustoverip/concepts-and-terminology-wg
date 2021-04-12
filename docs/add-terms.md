@@ -1,3 +1,23 @@
+# Add Terms
+
+There are three different ways to add data to a glossary.
+
+### Add a single term by raising a github issue
+
+In our github repo, click Issues > New Issue > New Term. Fill out the template.
+
+### Add a batch of data
+
+In our github repo, click Issues > New Issue > New Import. Fill out the template, choosing "no" under "Repeatable?"
+
+### Set up a repeated import
+
+In our github repo, click Issues > New Issue > New Import. Fill out the template, choosing "yes" under "Repeatable?"
+
+
+<hr>
+(old content, to be merged with what's above)
+
 # How to Contribute
 
 The ToIP corpus of terminology is a living artifact comprised of concepts and terms at various stages of the [Content Contribution Lifecycle Process](Content_Lifcycle.md).
