@@ -1,9 +1,9 @@
 # TOIP-Terminology and Tooling
 
-TOIP-Terminology Toolset (TT for short) is a set of tools that help ToIP groups to establish their terminology, and publish it for internal and external use. It also helps the CTWG to accomplish its mission to facilitate crisp mental models and consistent, carefully defined language across all the work activities in the various groups of the foundation.
+TOIP-Terminology Toolset (TT for short) is a set of tools that help ToIP groups to establish their terminology, and publish it for internal and external use. It also helps the CTWG to accomplish its mission to facilitate crisp mental models and consistent, carefully defined language across all the work activities in the various groups of the foundation. TT is user-friendly in the sense that it provides help to users that have made a mistake to fix that mistake. 
 
-This document explains the vision behind TT, ans specifies its requirements.
-Its audience is the CTWG working group.
+This document explains the vision behind TT, and specifies its requirements.
+Its primary audience is the CTWG working group. However the text has been amended for the purpose of supporting software developers that want to create/expand TT.
 
 ### Vision
 
@@ -38,9 +38,9 @@ It shows how groups manage their own documents, some of which contribute to the 
 
 The Toip Toolset (TT) is a specialized set of tools for managing terminology. Specifically, the set of tools consists of 
 
-* 'ingestion tools', i.e. tools that support ingestion of documents such that they can contribute to the contents of the corpus;
-* 'curation tools', i.e. tools that support curation of the corpus itself;
-* 'export tools', i.e. tools that support export of parts of the contents of the corpus;
+* 'ingestion tools', i.e. tools that support ingestion of documents such that they can contribute to the contents of the corpus. Ingestion tools are typically used by curators of individual groups for the purpose of contributing CT-artifacts to the CTWG corpus from ther perspective of the group.
+* 'curation tools', i.e. tools that support curation of the corpus itself. These tools are typically used by people/curators from the CTWG itself, for the purpose of managing the CT-artifacts in the corpus itself (correcting, updating, ...);
+* 'export tools', i.e. tools that support export of parts of the contents of the corpus. Like the ingestion tools, these tools are also typically used by curators of individual groups for the purpose of manually or automatically (in a CI-fashion) generating CT-related artifacts that are suitable to be processed by rendering tools.  
 
 It is envisaged that in order to support the different needs of different groups, there will not be a single tool for ingestion. One tool might assist in ingesting github tickets of specified formats, while another ingestion tool might scrape websites, and yet another might take a directory with files that specify terms as input. In the same way, we envisage that multiple export tools will be created for different purposes. Whenever such tools are tested and accepted for use, they are made part of the toolset repository for all to use.
 
@@ -169,5 +169,13 @@ The high-priority tools are:
 
 - [`ingest-bulk-data`](../docs/tool-ingest-bulk-data.md), for processing bulk data and adding contents to the corpus;
 - [`export-mkdocs`](../docs/tool-export-mkdocs.md), that exports a selection of corpus-files to a directory for further processing by e.g. MkDocs.
+
+### Generic requirements for TT and any (other) tool in the toolset
+
+A call to a tool in the toolset must always be done from the perspective/in the context of a single scope, i.e. any creating/updating/deleting of CT-artifacts must be limited to that scope. Subsequent calls may act on different scopes. A single call may read from different scopes.
+
+Calling a tool in the toolset in the context of a scope should only be doable by a curator of the group that owns the scope. 
+
+Every tool in the toolset must start by checking for the existence of whatever it needs to input and output artifacts, as well as for the structure of the inputs that it will use to complete its task, and produce a report of its findings that includes a list of all (syntax or other) error conditions it has encountered. Listing an error condition includes the provisioning of texts that helps the user of TT to find the exact location of the error, to determine how this can (best) be fixed, and where additional help/documenation of the tool can be found. 
 
 ---
