@@ -3,7 +3,7 @@
 TOIP-Terminology Toolset (TT for short) is a set of tools that help ToIP groups to establish their terminology, and publish it for internal and external use. It also helps the CTWG to accomplish its mission to facilitate crisp mental models and consistent, carefully defined language across all the work activities in the various groups of the foundation. TT is user-friendly in the sense that it provides help to users that have made a mistake to fix that mistake. 
 
 This document explains the vision behind TT, and specifies its requirements.
-Its primary audience is the CTWG working group. However the text has been amended for the purpose of supporting software developers that want to create/expand TT.
+Its primary audience is the CTWG working group. However the text has been amended for the purpose of supporting software developers that want to create/expand TT (see the [bounty](https://github.com/trustoverip/concepts-and-terminology-wg/issues/50)).
 
 ### Vision
 
